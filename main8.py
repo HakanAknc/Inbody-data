@@ -16,7 +16,7 @@ class MyHandler(FileSystemEventHandler):
         print(f'Dosya Taşındı/Yeniden Adlandırıldı: {event.src_path} -> {event.dest_path}')
 
 if __name__ == "__main__":
-    path = r"C:\Users\Hakan Akıncı\Desktop\deneme"  # İzlenecek dizin (bu örnekte geçerli dizin)
+    path = r""  # İzlenecek dizin (bu örnekte geçerli dizin)
     event_handler = MyHandler()
     observer = Observer()
     observer.schedule(event_handler, path, recursive=True)
