@@ -58,7 +58,7 @@ class MyHandler(FileSystemEventHandler):
             process_and_save_file(event.src_path, self.success_folder, self.error_folder)
 
 # Girdi klasörünün yolu
-input_folder = r"C:\Users\Hakan Akıncı\Desktop\deneme"  # İzlemek istediğiniz klasörün yolu
+input_folder = r""  # İzlemek istediğiniz klasörün yolu
 # Çıktı klasörlerinin yolları
 success_folder = 'success_folder_path'  # Başarılı dosyaların kaydedileceği klasör
 error_folder = 'error_folder_path'  # Hatalı dosyaların kaydedileceği klasör

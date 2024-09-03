@@ -41,7 +41,7 @@ class MyHandler(FileSystemEventHandler):
         if not event.is_directory: 
             process_and_save_file(event.src_path, self.output_folder)
 
-input_folder = r"C:\Users\Hakan Akıncı\Desktop\deneme"  # İzlemek istediğiniz klasörün yolu
+input_folder = r""  # İzlemek istediğiniz klasörün yolu
 output_folder = 'successful_folder'  # İşlenmiş dosyaların kaydedileceği klasörün yolu
 
 if __name__ == "__main__":

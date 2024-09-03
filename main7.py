@@ -13,7 +13,7 @@ class DosyaIzleyici(FileSystemEventHandler):
         print(f'Dosya değiştirildi: {event.src_path}')
 
 # Klasör yolunu belirleyin, örneğin: C:\Users\Kullanici\Desktop\IzlenecekKlasor
-klasor_yolu = r"C:\Users\Hakan Akıncı\Desktop\deneme"
+klasor_yolu = r""
 
 event_handler = DosyaIzleyici()
 observer = Observer()
