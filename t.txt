@@ -1,0 +1,45 @@
+
+Şimdi ben yukarda attığım txt dosyasından ve xlsx dosyasından şöyle bişey yapmak istiyorum
+exel dosyasından satır kolon adları var onlara karşılık ascii değerler var ben sana bir kaç örneğini aşağda verdim
+bu şekilde bir kod istiyorum
+
+
+InBody ID = .77vRINBODY270
+ID = 240822-1
+Gender = M
+Height = 172.0
+Age = 44.0
+Weight = 75.10
+Test Date = 2024/08/22
+Test Time = 17:48:59
+None = PASS
+Protein = 0
+Minerals = 0
+BFM (Body Fat Mass) = F91702151
+TBW(Total Body Water) = 1
+FFM(Fat Free Mass)LBM(Lean Body Mass) = 26.4
+SMM(Skeletal Muscle Mass) = 15.7
+
+
+HEX-ASCII formatında bir txt dosyam var senden önce bunun Binary HEX’e çevrilmesi sonrada her bir parçanın ASCII’ye çevrilmesi gerekiyor.
+Bu çalışmayı Phyton üzerinde yapan bir uygulama çıkarabilir misin!
+
+
+--------------------------
+
+şimdi sana yukarda attığım kodda şöyle bir şey istiyorum
+kod çalışıyor hiç bir sorun yok çok güzel eklemeni istediğim bir kısım var.
+şimdi bu kod klasör okuma işlemi yapıyor sürekli ve gelen verileri yani dosyayı çevirip istediğimiz formata getirip başka klasöre kaydediyor hiç bir sorun yok
+tam burda senden şunu istiyorum bu izlediğimiz klasöre gelen dosyaları şu şekilde kaydetmeni istiyorum gönderdiğim dosyanın ismini değil de sadece datatime kullanarak tarih ve saat yazsın kaydetsin.
+daha iyi anlaman için örnek vereim
+
+mesela ben
+"inbody.txt" diye bir dosya yolladım bu dosyayı alsın işlemini yapsın başka bir klasöre kaydederken mesela şuan ki tarihi yazayım "2024-08-29 152854.966251.txt" şeklinde kaydetesin
+
+----------------------------
+
+şimdi sana yukarda attığım kodda şöyle bir şey istiyorum
+kod çalışıyor hiç bir sorun yok çok güzel eklemeni istediğim bir kısım var.
+şimdi bu kod klasör okuma işlemi yapıyor sürekli ve gelen verileri yani dosyayı çevirip istediğimiz formata getirip başka klasöre kaydediyor hiç bir sorun yok
+tam burda senden şunu istiyorum bu izlediğimiz klasöre gelen dosyaları şu şekilde kaydetmeni istiyorum gönderdim dosyayı kontrol et eğer dosya düzgünse başka bir klasöre kaydet eğer çalışmıyorsa başka bir klasöre kaydet
+daha açıklıyıcı olmasın şöyle anlatyım mesela kodu çalıştırdık klasörü izlemeye başladık bu klasöre gelen dosyayı kontrol et neden dersen şu yüzden bu izlediğimiz klasöre sürekli çalışan dosya gelmicek çalışmayan, eksik, hatalı,
