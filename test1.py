@@ -1,4 +1,4 @@
-import serial
+import serial   # TODO Bu bir pyserial örnek kodudur.
 
 # Seri portu açın
 ser = serial.Serial('COM3', 9600, timeout=1)  # Port adı ve baud rate ayarları
